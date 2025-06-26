@@ -1,12 +1,36 @@
-# React + Vite
+# FlightFinder – Find It. Book It. Board It. ✈
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+![FlightFinder Preview](Project_Files/images/og_img.png)
 
-Currently, two official plugins are available:
+<br>
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+FlightFinder is a real-time flight booking web application built to simplify air travel for users and administrators. It allows users to explore and book flights across major Indian and international cities, with features like seat selection, real-time status updates, and a smooth, responsive interface. Admins can manage flights, track bookings, and send live notifications making the system dynamic and easy to maintain.
 
-## Expanding the ESLint configuration
+## Features
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- 🔍 Search and book flights in real time  
+- 💺 Responsive seat selection interface  
+- 🔔 Instant user notifications for flight updates  
+- 📱 Fully responsive design for desktop and mobile  
+- 🔐 User authentication with email validation  
+- 🧑‍💼 Role-based access (User/Admin)  
+- ✅ Toast messages on key actions (login, logout, booking, etc.)
+
+## Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS  
+- **Backend:** Supabase (PostgreSQL, Auth, Realtime)  
+- **Routing & State:** React Router DOM, React Hooks
+ 
+## Getting Started
+
+To run this project locally:
+
+1. **Fork** the repository to your GitHub account  
+2. **Clone** your forked repository  
+   ```bash
+   git clone https://github.com/your-username/flightfinder.git
+   cd flightfinder 
+3. Install dependencies using `npm install`  
+4. Connect to Supabase and set environment variables  
+5. Run the app using `npm run dev`  
