@@ -1,6 +1,6 @@
 # FlightFinder – Find It. Book It. Board It. ✈
 
-![FlightFinder Preview](Project_Files/images/og_img.png)
+![FlightFinder Preview](public/images/og.png)
 
 <br>
 
